@@ -1,0 +1,40 @@
+.Grid_1 {
+    height: 1080px;
+    width: 1920px;
+    display: grid;
+}
+
+.g1, .g2, .g3, .g4, .g5, .g6 {
+    height: 360px;
+    width: 960px;
+}
+.g1 {
+    background-color: #ff914d;
+    grid-column: 1;
+    grid-row: 1;
+}
+.g2 {
+    background-color: #c9e265;
+    grid-column: 2;
+    grid-row: 1;
+}
+.g3 {
+    background-color: #004aad;
+    grid-column: 1;
+    grid-row: 2;
+}
+.g4 {
+    background-color: #00c2cb;
+    grid-column: 2;
+    grid-row: 2;
+}
+.g5 {
+    background-color: #cb6ce6;
+    grid-column: 1;
+    grid-row: 3;
+}
+.g6 {
+    background-color: #ff5757;
+    grid-column: 2;
+    grid-row: 3;
+}

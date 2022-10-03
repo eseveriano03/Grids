@@ -1,0 +1,30 @@
+.Grid_2 {
+    height: 1080px;
+    width: 1920px;
+    display: grid;
+}
+
+.izq, .der {
+    height: 1080px;
+    width: 960px;
+    font-size: 40px;
+}
+.izq {
+    text-align: left;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    background-color: #cb6ce6;
+}
+.der {
+    text-align: right;
+    grid-column: 4 / 7;
+    grid-row: 1 / 4;
+    background-color: #ff914d;
+}
+.cen {
+    height: 250px;
+    width: 250px;
+    grid-column: 3 / 5;
+    grid-row: 2;
+    background-color: #ff5757;
+}
